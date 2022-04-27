@@ -1,0 +1,193 @@
+
+
+body{
+    font-family: sans-serif;
+    background-color: black; 
+    color: white;
+    overflow-x: hidden;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 110%;
+    
+}
+
+ul.menubar {
+    width: 100%;
+    list-style: none;
+    margin: 0 ;
+    padding: 0; 
+    text-align: center;
+    background-color: rgb(37, 37, 37);
+}
+
+.menubar li {
+    display: inline-block;
+    width: 24.6%;
+    margin: 0;
+    padding: 0; 
+}
+
+.menubar a {
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    margin: 0;
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-size: 22px;
+}
+
+.menubar a:hover{
+    background-color: rgb(59, 59, 59); 
+}
+
+.menubar a.selected{
+    color: orange;
+    background-color: rgb(54, 52, 52);
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+   text-shadow: -1px -1px 0 grey, 
+                1px -1px 0 grey,
+                -1px 1px 0 grey,
+                1px 1px 0 grey;
+    color: black;
+  }
+
+h2 {
+    font-size: 35px;
+    color: #b44646;  
+    margin-bottom: 0;
+}
+
+h3 {
+    color: #b63333 ;  
+    font-size: 150%;
+  }
+
+h4 {
+    color: #ac521e ;  
+    font-size: 125%;
+  }
+
+hr.heading {
+    border: 1px solid grey;
+    margin: 4px;
+}
+
+.big_text {
+    font-weight: 900;
+    font-size: 38px;
+}
+
+#uts {
+    font-style: italic;
+    color: #b8990f;
+}
+
+#UTS_logo {
+    max-width: 50%;
+    max-height: 50%;
+    float: left;
+}
+
+#future_path {
+    max-width: 30%;
+    max-height: 30%;
+    float: right;
+}
+
+#HTML_structure{
+    max-width: 35%;
+    max-height: 30%;
+    float: right;
+}
+
+#font_sizing{
+    max-width: 35%;
+    max-height: 30%;
+    float: right;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(95, 95, 95);
+    width: 100%;
+    text-align: center;
+}
+th{
+    background-color:rgb(95, 95, 95);
+    width: 20%;
+}
+
+.indexlist th, .indexlist td {
+    text-align: start;
+    vertical-align: top;
+    border: 2px solid black;
+    color: white;
+    background-color:black;
+    width: 20%;
+}
+
+.main th, .main td {
+    text-align: center;
+    color: white;
+    border: 2px solid rgb(95, 95, 95);
+}
+
+.tag th, .tag td {
+    text-align: center;
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+#css.table, #css td {
+    text-align: center;
+    color:white;
+    border: 2px solid rgb(95, 95, 95);
+}
+#css th {  
+    background-color:rgb(95, 95, 95); 
+}
+
+.links {
+    color: rgb(161, 12, 12);
+    font-style: italic
+}
+
+.links:hover {
+    color: red;
+}
+
+footer {
+   color: grey;
+}
+
+.flinks {
+    float: right;
+}
+.flinks  a {
+    text-decoration: none;
+    color: orange;
+    font-size: 100%;
+}
+
+.bold {
+    font-weight: 900;
+    color:rgb(201, 138, 22);
+}
+
+.diff_font{
+    font-style: italic ;
+}
+
+.order_list {
+    color: orange;
+}
+
+.cite {
+    font-size: 70%;
+    font-style: italic;
+}
